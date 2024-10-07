@@ -6,7 +6,7 @@ public static void main(String[] args) {
    
 
 				
-				
+    double kdvoran = 0.18;	
 		
     Scanner inpScanner = new Scanner(System.in);
     
@@ -14,7 +14,7 @@ public static void main(String[] args) {
     Double tutar = inpScanner.nextDouble();
     System.out.println("KDV'siz Tutar :" +tutar);
     
-    double kdvoran = 0.18;
+   
     if (tutar<1000) {
         kdvoran=0.18;
     }else {
